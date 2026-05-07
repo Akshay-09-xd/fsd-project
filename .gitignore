@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Frontend app (ignore build artifacts and env, but not source)
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# Backend app
+Backend/node_modules/
+Backend/dist/
+Backend/.env
+
+# Logs
+Backend/logs/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
